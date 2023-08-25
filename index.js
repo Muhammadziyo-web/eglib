@@ -9,12 +9,12 @@ const { program } = require("commander");
 
 
 program
-  .command("create <folderName>")
+  .command("create")
   .description("Generate custom files and folders")
-  .action((folderName) => {
-    fs.mkdirSync(folderName);
-    const filePath = path.join(folderName, "myFile.txt");
-    fs.writeFileSync(filePath, "Hello, custom file content!");
+  .action(() => {
+    fs.mkdirSync('src');
+    const filePath = path.join(folderName, "server.js");
+    fs.writeFileSync(filePath, "console.log(Hello world!");
 
     console.log("Generated custom files and folders.");
   });
