@@ -14,7 +14,7 @@ program
   .action(() => {
     fs.mkdirSync('src');
     const filePath = path.join(folderName, "server.js");
-    fs.writeFileSync(filePath, "console.log(Hello world!");
+    fs.writeFileSync(filePath, "console.log('Hello world!')");
 
     console.log("Generated custom files and folders.");
   });
