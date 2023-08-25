@@ -18,7 +18,7 @@ eglib is a powerful CLI tool designed to simplify the process of generating stru
 ## Installation
 
 ```bash
-npm install -g eglib
+npm install -g eg-lib
 ```
 ## Usage
 
