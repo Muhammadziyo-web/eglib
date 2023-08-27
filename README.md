@@ -1,6 +1,6 @@
 # EGLIB
 
-Effortlessly generate structured Express.js projects.
+Effortlessly generate structured Express.js projects. 
 
 
 
