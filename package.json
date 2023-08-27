@@ -1,6 +1,6 @@
 {
-  "name": "eg-lib",
-  "version": "1.0.02",
+  "name": "eglib",
+  "version": "1.0.1",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -10,12 +10,26 @@
   "bin": {
     "eglib": "index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "project generator",
+    "scaffold",
+    "boilerplate",
+    "structure",
+    "CLI",
+    "automation",
+    "web development",
+    "node.js",
+    "eglib",
+    "eg-lib",
+    "easy"
+  ],
   "author": "Muhammadziyo",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.3.0",
-    "commander": "^11.0.0"
+    "commander": "^11.0.0",
+    "simple-git": "^3.19.1"
   },
   "description": ""
 }
