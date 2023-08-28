@@ -13,7 +13,6 @@ program
     console.log("\x1b[33m Welcome to the eglib! \x1b[0m");
     const templateRepoUrl =
       "https://github.com/Muhammadziyo-web/eglib-template.git";
-    const projectName = "projectName"; // You can customize this
 
     const targetDir = path.join(process.cwd(), projectName);
 
