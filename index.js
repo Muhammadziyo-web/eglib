@@ -9,7 +9,7 @@ const { execSync } = require("child_process")
 program
   .command("create <project-name")
   .description("Generate custom files and folders")
-  .action(projectName) => {
+  .action((projectName)=>{
     console.log("\x1b[33m Welcome to the eglib! \x1b[0m");
     const templateRepoUrl =
       "https://github.com/Muhammadziyo-web/eglib-template.git";
