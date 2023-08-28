@@ -1,11 +1,11 @@
 {
   "name": "eglib",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "te=st": "echo \"Error: no test specified\" && exit 1",
-    "c": "node index.js"
+    "dev": "node index.js"
   },
   "bin": {
     "eglib": "index.js"
@@ -27,7 +27,7 @@
   "author": "Muhammadziyo",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.3.0",
+    "child_process": "^1.0.2",
     "commander": "^11.0.0",
     "simple-git": "^3.19.1"
   },
