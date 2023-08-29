@@ -11,7 +11,7 @@ Welcome to the documentation for `eglib`, the library that simplifies generating
 
 To get started with `eglib`, follow these steps:
 
-### Installation
+### Installation 
 
 Install the `eglib` package globally using npm:
 
