@@ -3,7 +3,6 @@ Save Time, Build More: Instant Structure with eglib. <br><br>
 
 # EGLIB Documentation
 
-<img src="https://res.cloudinary.com/dqgs5grsq/image/upload/v1693162026/EGLIB_lym4bb.png" width="400" style="display:block; margin: 0 auto">
 
 Welcome to the documentation for `eglib`, the library that simplifies generating structured Express.js projects. With the powerful `eglib create` command, you can quickly create a new project based on a predefined Git repository template.
 
